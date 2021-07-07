@@ -1,0 +1,132 @@
+h1 {
+  
+    font-size: 3.5rem;
+  
+    font-weight: 900;
+  
+    line-height: 1.5;
+
+    color: aliceblue;
+  
+  }
+  h2{
+  
+    font-size: 2rem;
+  
+    font-weight: 900;
+  
+    line-height: 1.5;
+
+  }
+  h3{
+      font-weight: 900;
+      color: aliceblue;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat ', sans-serif;
+  }
+  p{
+      color: #8f8f8f;
+  }
+  .navbar{
+      padding: 0 0 3.5rem 0;
+      position:relative;
+      bottom: 5%;
+  }
+  .nav-item{
+      padding: 0 18px;
+  }
+  .nav-link{
+      font-size: 1.2rem;
+      font-family: 'Montserrat-bold', sans-serif;
+  }
+  .navbar-brand{
+      font-weight: bold;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 2.5rem;
+      color: aliceblue;
+  }
+  #title{
+      background-color: #E99497;
+  }
+  .containor{
+      padding: 5% 10% 0 10%;
+      height: 50rem;
+  }
+  a{
+      padding: 1%;
+  }
+  .iphone{
+      position: relative;
+      width: 25%;
+      left: 60%;
+      bottom: 56%;
+      transform: rotate(25deg);
+  }
+  .download-button{
+      margin: 5% 3% 5% 0%;
+  }
+  #features{
+      background-color: #F8EDED;
+      padding: 7% 10%;
+  }
+  .features-box{
+      text-align: center;
+  }
+  .icon{
+     color: #EF8172;
+     margin-bottom: 1rem;
+  }
+  .icon:hover{
+      color: #E99497;
+  }
+  #testimonials{
+      background-color: #E99497;
+      padding: 7% 10%;
+      text-align: center;
+      color: aliceblue;
+  }
+  .testimonial-image{
+      width: 10%;
+      border-radius: 100%;
+      margin: 3%;
+  }
+  #press{
+      background-color: #E99497;
+      text-align: center;
+      padding-bottom: 2%;
+  }
+  .press-logo{
+      width: 15%;
+      padding: 20px 20px 50px;
+  }
+  #pricing{
+      padding: 100px;
+    text-align: center;
+    background-color: #F8EDED;
+  }
+  .pricing-column{
+      padding: 3% 2%;
+  }
+  @media (max-width: 1028px){
+      .iphone{
+          position: static;
+          transform: rotate(0);
+      }
+      #title{
+          text-align: center;
+      }
+  }
+  #cta{
+      padding: 3% 2%;
+      text-align: center;
+      background-color: #E99497;
+  }
+  #footer{
+      padding: 3% 2%;
+      text-align: center;
+      background-color: #F8EDED;
+  }
+  .social{
+      margin: 20px 10px;
+  }
